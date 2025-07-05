@@ -1,0 +1,212 @@
+<section class="voluntariado-seccion">
+  <div class="voluntariado-banner">
+    <img src="/public/collage-02.jpg" alt="Voluntariado" />
+    <div class="banner-texto">
+      <h2>VOLUNTARIADO EN CRUZ ROJA ECUATORIANA</h2>
+      <p>
+        L@s voluntari@s vuelve realidad todo el trabajo humanitario que realiza
+        la Cruz Roja y la Media Luna Roja. Gracias a ellos se salvan vidas y se
+        brinda asistencia a millones de personas.
+      </p>
+    </div>
+  </div>
+
+  <!-- Subtexto -->
+  <p class="voluntariado-subtexto">
+    En la Cruz Roja junta cantonal Rocafuerte todos podemos ser un héroe o una
+    heroína. Tú puedes serlo sumándote a nuestra familia de voluntarios/as.
+  </p>
+
+  <!-- Beneficios -->
+  <h3 class="voluntariado-beneficios-titulo">BENEFICIOS DEL VOLUNTARIADO</h3>
+
+  <div class="voluntariado-beneficios-card">
+    <img src="/public/capacitacion-4.jpg" alt="Beneficios" />
+    <div class="beneficios-overlay">
+      <ul>
+        <li>Capacitación constante y permanente.</li>
+        <li>Crecimiento personal, humano y social.</li>
+        <li>Seguro de salud y accidentes al realizar actividades.</li>
+        <li>Reconocimientos por tu labor voluntaria.</li>
+        <li>
+          Convenios interinstitucionales para descuentos en exámenes de
+          laboratorio, universidades y compra de medicamentos.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Beneficios adicionales -->
+  <div class="voluntariado-extra-beneficios">
+    <div class="extra-item">
+      <img src="/public/Soltando-globos-cr.jpg" alt="Formar parte" />
+      <p>Formar parte algo más grande</p>
+    </div>
+    <div class="extra-item">
+      <img src="/public/comunidad.jpg" alt="Referente" />
+      <p>Ser un referente para tu comunidad</p>
+    </div>
+    <div class="extra-item">
+      <img src="/public/capacitacion-3.jpg" alt="Salvar vidas" />
+      <p>Aprender a salvar vidas</p>
+    </div>
+  </div>
+</section>
+<style>
+  .voluntariado-seccion {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .voluntariado-banner {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .voluntariado-banner img {
+    width: 100%;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+
+  .voluntariado-banner:hover img {
+    transform: scale(1.05);
+  }
+
+  .banner-texto {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-align: left;
+    max-width: 500px;
+  }
+
+  .banner-texto h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .banner-texto p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .voluntariado-subtexto {
+    margin: 30px auto;
+    max-width: 800px;
+    font-size: 18px;
+  }
+
+  .voluntariado-beneficios-titulo {
+    text-decoration: underline;
+    margin: 40px 0 20px;
+  }
+
+  /* --- Card de beneficios principal --- */
+  .voluntariado-beneficios-card {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 900px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .voluntariado-beneficios-card img {
+    width: 100%;
+    display: block;
+  }
+
+  .beneficios-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(217, 28, 36, 0.9);
+    color: white;
+    padding: 20px;
+    text-align: left;
+    overflow-y: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .beneficios-overlay ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .beneficios-overlay ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* --- Beneficios adicionales --- */
+  .voluntariado-extra-beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .extra-item {
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .extra-item img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .extra-item:hover img {
+    transform: scale(1.05);
+  }
+
+  .extra-item:hover {
+    transform: translateY(-5px);
+  }
+
+  .extra-item p {
+    margin-top: 10px;
+  }
+
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .banner-texto {
+      max-width: 90%;
+      left: 10px;
+      bottom: 10px;
+    }
+
+    .banner-texto h2 {
+      font-size: 18px;
+    }
+
+    .banner-texto p {
+      font-size: 14px;
+    }
+
+    .beneficios-overlay {
+      position: static;
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+    }
+
+    .extra-item {
+      width: 90%;
+    }
+  }
+</style>
