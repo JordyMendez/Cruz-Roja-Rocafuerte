@@ -39,15 +39,17 @@
 
   <p class="voluntariado-descripcion">
     Ser voluntario o voluntaria es crecer como ser humano, descubrir nuevas
-    habilidades, y sentir la satisfacción única de saber que tu aporte puede
+    habilidades y sentir la satisfacción única de saber que tu aporte puede
     significar una segunda oportunidad para alguien.
   </p>
+
   <p class="voluntariado-descripcion botom">
     Te invitamos a ser parte de este movimiento mundial, a vivir la experiencia
     de servir sin esperar nada a cambio y a compartir valores como la humanidad,
     la imparcialidad y la solidaridad. ¡Únete hoy y deja huella en miles de
     corazones!
   </p>
+
   <a
     href="https://sivol.cruzroja.org.ec/solicitud/"
     target="_blank"
@@ -55,19 +57,12 @@
     class="btn-voluntariado">VOLUNTARIADO</a
   >
 </section>
+
 <style>
   .voluntariado {
     background-color: #f2f2f2;
     padding: 120px 20px;
     text-align: center;
-  }
-
-  .voluntariado-enlace {
-    display: block;
-    margin-bottom: 20px;
-    color: #000;
-    text-decoration: underline;
-    font-size: 14px;
   }
 
   .voluntariado-card {
@@ -88,6 +83,9 @@
     display: flex;
     flex-direction: column;
     background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
   }
 
   .voluntariado-text-container h2 {
@@ -95,12 +93,28 @@
     color: white;
     margin: 0;
     padding: 15px;
+    width: 100%;
   }
 
   .voluntariado-text-container p {
-    padding: 15px;
-    margin: 0;
-    text-align: left;
+    margin: 15px 0;
+    text-align: justify;
+  }
+
+  .btn-voluntariado {
+    background: #d91c24;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    margin: 15px 0;
+  }
+
+  .btn-voluntariado:hover {
+    background: #bd131c;
   }
 
   .voluntariado-titulo {
@@ -114,26 +128,13 @@
   .voluntariado-descripcion {
     max-width: 900px;
     margin: 0 auto 20px;
-    text-align: left;
     text-align: justify;
   }
 
   .botom {
     margin-bottom: 60px;
   }
-  .btn-voluntariado {
-    background: #d91c24;
-    color: white;
-    padding: 10px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 15px;
-    width: 50%;
-  }
-  .btn-voluntariado:hover {
-    background: #bd131c;
-  }
+
   @media (min-width: 768px) {
     .voluntariado-card {
       flex-direction: row;
