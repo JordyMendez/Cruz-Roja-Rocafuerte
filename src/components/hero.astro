@@ -1,61 +1,221 @@
-<section class="section-1">
-  <div class="hero">
-    <h1>Somos Imparables</h1>
-    <button>CONOCE MÁS</button>
+<section class="home-seccion">
+  <div
+    class="home-card"
+    style="background-image: url('/public/sonriendo.jpg');"
+  >
+    <div class="home-overlay">
+      <h2>Tú puedes hacer la diferencia</h2>
+      <p>
+        Asistencia ante emergencias y desastres para apoyar a personas afectadas
+        en Ecuador, en cualquier momento y lugar.
+      </p>
+      <a
+        href="https://sivol.cruzroja.org.ec/solicitud/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-home">ACTÚA AHORA</a
+      >
+    </div>
   </div>
-  <div class="fondo">
-    <img src="public/collage-02.jpg" alt="" />
+
+  <div class="home-card split-card">
+    <div class="home-card-img">
+      <img
+        src="/public/donacion de sangre.jpg"
+        alt="Dona sangre"
+        loading="lazy"
+      />
+    </div>
+    <div class="home-card-text">
+      <h2>Dona sangre ayuda a salvar vidas</h2>
+      <p>
+        Invitamos a los donantes saludables a contribuir y salvar vidas en todo
+        el país.
+      </p>
+      <a href="#" class="btn-home">DONA SANGRE</a>
+    </div>
+  </div>
+
+  <div
+    class="home-card"
+    style="background-image: url('/public/simulacro.jpg');"
+  >
+    <div class="home-overlay right">
+      <h2>Entrenamiento experto que se adapta a ti</h2>
+      <p>
+        Capacítate con la Cruz Roja Ecuatoriana, aprende y certifícate en
+        primeros auxilios y salvamento.
+      </p>
+      <a href="#" class="btn-home">ENCUENTRA UN CURSO</a>
+    </div>
+  </div>
+
+  <div class="home-card split-card">
+    <div class="home-card-img">
+      <img src="/public/voluntarios.png" alt="Voluntarios" />
+    </div>
+    <div class="home-card-text">
+      <h2>Voluntarios</h2>
+      <p>
+        El 90% de nuestra fuerza de trabajo son voluntarios que entregan su
+        tiempo para servir a la comunidad.
+      </p>
+      <a
+        href="https://sivol.cruzroja.org.ec/solicitud/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-home">HAZTE VOLUNTARIO</a
+      >
+    </div>
+  </div>
+
+  <div class="home-card split-card dark">
+    <div class="home-card-text dark-bg">
+      <h2>¡Haz tu parte, sé seguro en el agua!</h2>
+      <p>
+        Enseñamos a niños y familias a actuar de forma segura en playas, ríos y
+        piscinas, promoviendo prevención y autocuidado.
+      </p>
+      <a
+        href="https://www.ifrc.org/es/nuestro-trabajo/salud-y-cuidado/agua-saneamiento-e-higiene-wash"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-home">CONOCE MÁS</a
+      >
+    </div>
+    <div class="home-card-img">
+      <img src="/public/wash.jpg" alt="Prevención acuática" />
+    </div>
   </div>
 </section>
 
-<section class="section-2"></section>
 <style>
-  .section-1 {
+  .home-seccion {
+    font-family: Arial, sans-serif;
+    background-color: #fdfbfb;
+  }
+
+  .home-card {
     position: relative;
-    height: 100vh;
-    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    width: 70%;
   }
 
-  .fondo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    z-index: -1;
+  .home-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 400px;
   }
 
-  .fondo img {
+  .home-overlay.right {
+    margin-left: auto;
+    margin-right: 50px;
+  }
+
+  .home-overlay h2,
+  .home-card-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .home-overlay p,
+  .home-card-text p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .btn-home {
+    background-color: #d91c24;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background 0.3s;
+  }
+
+  .btn-home:hover {
+    background-color: #b3171d;
+  }
+
+  .split-card {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .split-card .home-card-img {
+    flex: 1 1 50%;
+    position: relative;
+  }
+
+  .split-card .home-card-img img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    display: block;
     object-fit: cover;
   }
-  .hero {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+  .split-card .home-card-text {
+    flex: 1 1 20%;
+    padding: 60px;
+    background-color: rgb(241, 237, 237);
+    color: black;
+    flex-direction: column;
     text-align: center;
+    margin: 0 30px;
   }
 
-  .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-
-  .hero button {
-    background: #d91c24;
-    border: none;
+  .dark .home-card-text {
     color: white;
-    padding: 12px 25px;
-    font-size: 1.4rem;
-    border-radius: 5px;
-    cursor: pointer;
   }
 
-  .hero button:hover {
-    background: #bd131c;
+  .dark .home-card-text.dark-bg {
+    background-color: #1a1a1a;
+  }
+
+@media (max-width: 768px) {
+  .home-card {
+    margin-top: 80px;
+    padding: 10px 20px; 
+    height: auto;
+  }
+.home-card-img{
+  margin-right: 50px;
+}
+.home-card-text{
+  
+}
+  .home-overlay {
+    margin:  30px;
+    text-align: center;
+    width: auto; 
+  }
+
+  .split-card {
+    flex-direction: column;
+  }
+
+  .split-card .home-card-text,
+  .split-card .home-card-img {
+    flex: 1 1 100%;
+  }
+
+  .home-overlay.right {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
   }
 </style>
