@@ -1,13 +1,11 @@
 <footer class="footer">
   <div class="footer-container">
-    <!-- Logo y nombre -->
     <div class="footer-logo">
       <img src="/public/cropped-istcre3-192x192.png" alt="Cruz Roja" />
       <h2>Cruz Roja Ecuatoriana</h2>
       <p>Junta Cantonal de Rocafuerte</p>
     </div>
 
-    <!-- Contacto -->
     <div class="footer-section">
       <h3>| CONTACTO</h3>
       <p>📞 +593939606778</p>
@@ -15,7 +13,6 @@
       <p>📍 Frente de la leo de febres cordero</p>
     </div>
 
-    <!-- Acerca de -->
     <div class="footer-section">
       <h3>| ACERCA DE</h3>
       <p>Políticas de Uso</p>
@@ -27,14 +24,13 @@
 
   <div class="footer-copy">2025 CRE© – Todos Los Derechos Reservados.</div>
 </footer>
+
 <style>
   .footer {
     background: linear-gradient(to right, #d91c24, #8b0000);
     color: white;
     padding: 40px 20px;
     text-align: center;
-    position: relative;
-    clear: both;
   }
 
   .footer-container {
@@ -44,41 +40,73 @@
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
+    width: 100%;
   }
 
   .footer-logo img {
-    width: 100px;
+    width: 80px;
     margin-bottom: 10px;
   }
 
   .footer-logo h2 {
-    font-size: 20px;
+    font-size: 18px;
     margin: 5px 0;
   }
 
   .footer-logo p {
     margin: 0;
+    font-size: 14px;
   }
 
   .footer-section h3 {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     font-weight: bold;
+    font-size: 16px;
   }
 
   .footer-section p {
     margin: 5px 0;
+    font-size: 14px;
   }
 
   .footer-copy {
     margin-top: 30px;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   @media (min-width: 768px) {
     .footer-container {
       flex-direction: row;
       justify-content: space-between;
+      align-items: flex-start;
       text-align: left;
+    }
+
+    .footer-logo {
+      align-items: flex-start;
+      text-align: left;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .footer-logo img {
+      width: 100px;
+    }
+
+    .footer-logo h2 {
+      font-size: 20px;
+    }
+
+    .footer-section h3 {
+      font-size: 18px;
+    }
+
+    .footer-section p {
+      font-size: 15px;
+    }
+
+    .footer-copy {
+      font-size: 14px;
     }
   }
 </style>
