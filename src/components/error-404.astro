@@ -1,0 +1,70 @@
+---
+
+---
+
+<div class="error-container">
+  <div class="image-container">
+    <img src="/public/404.jpg" alt="Cruz Roja" />
+  </div>
+  <h1>¡Oops! Página no encontrada.</h1>
+  <p>
+    Parece que has abierto la puerta equivocada.<br />
+    No he podido encontrar la página que estás buscando.
+  </p>
+  <a href="/" class="button">Volver al inicio</a>
+</div>
+
+<style>
+  .error-container {
+    margin: 0 auto;
+    padding: 5rem;
+    font-family: "Arial", sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image-container img {
+    max-width: 300px;
+    width: 80%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0 0.5rem;
+    color: #d32f2f; /* rojo cruz roja */
+  }
+
+  p {
+    font-size: 1rem;
+    max-width: 400px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .button {
+    padding: 0.8rem 2rem;
+    background-color: #d32f2f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #b71c1c;
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
+</style>
