@@ -1,52 +1,33 @@
-# Astro Starter Kit: Basics
+🚑 Cruz Roja - Junta Cantonal Rocafuerte
+Este repositorio contiene el desarrollo web de la Junta Cantonal de la Cruz Roja en Rocafuerte. El sitio web presenta información institucional, servicios, contacto y más, con un diseño moderno y accesible.
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+📁 Estructura del Proyecto
+index.html: Página principal del sitio.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+index.css: Estilos personalizados.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+imagenes/: Carpeta con recursos gráficos (logotipos, banners, etc.).
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+js/: Funcionalidades dinámicas con JavaScript (menús, interacción).
 
-## 🚀 Project Structure
+🚀 Tecnologías Utilizadas
+HTML5
 
-Inside of your Astro project, you'll see the following folders and files:
+CSS3
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+JavaScript
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Diseño adaptable (responsive design)
 
-## 🧞 Commands
+![alt text](image.png)
 
-All commands are run from the root of the project, from a terminal:
+![alt text](image-1.png)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+👨‍💻 Autor
+Jordy Javier Chichanda Mendez
 
-## 👀 Want to learn more?
+📧 jordy.tucorreo@ejemplo.com (opcional)
+🔗 GitHub
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+📄 Licencia
+Este proyecto es de uso académico. Para otros fines, por favor consultar al autor.
