@@ -26,8 +26,7 @@ Diseño adaptable (responsive design)
 👨‍💻 Autor
 Jordy Javier Chichanda Mendez
 
-📧 jordy.tucorreo@ejemplo.com (opcional)
-🔗 GitHub
+📧 jordimendez1999@gmail.com
 
 📄 Licencia
 Este proyecto es de uso académico. Para otros fines, por favor consultar al autor.
